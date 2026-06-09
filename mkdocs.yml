@@ -63,6 +63,20 @@ plugins:
 
 nav:
   - Home: index.md
+  - Clinic Dashboard:
+      - Overview: clinic-dashboard/index.md
+      - Getting Started: clinic-dashboard/getting-started.md
+      - Features: clinic-dashboard/features.md
+      - Sub-tabs:
+          - Overview: clinic-dashboard/sub-tabs/overview.md
+          - Schedule: clinic-dashboard/sub-tabs/schedule.md
+          - Census: clinic-dashboard/sub-tabs/census.md
+          - Billing: clinic-dashboard/sub-tabs/billing.md
+          - Physicians: clinic-dashboard/sub-tabs/physicians.md
+          - Inventory: clinic-dashboard/sub-tabs/inventory.md
+          - Quality: clinic-dashboard/sub-tabs/quality.md
+          - CRM: clinic-dashboard/sub-tabs/crm.md
+      - Administration: clinic-dashboard/admin/index.md
   - Patient Dashboard:
       - Overview: patient-dashboard/index.md
       - Getting Started: patient-dashboard/getting-started.md
