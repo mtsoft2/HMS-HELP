@@ -28,13 +28,15 @@
   }
 
   function build() {
-    const tabsInner = document.querySelector('.md-tabs__inner');
-    if (!tabsInner) return;
+    // Material renders <nav class="md-tabs"><ul class="md-tabs__list">…
+    // There is NO .md-tabs__inner wrapper — we anchor to .md-tabs directly.
+    const tabs = document.querySelector('.md-tabs');
+    if (!tabs) return;
     const data = window.HMS_NAV;
     if (!Array.isArray(data)) return;
 
     // Avoid rebuilding on instant-load page changes
-    if (tabsInner.querySelector('.hms-mm-wrap')) return;
+    if (tabs.querySelector('.hms-mm-wrap')) return;
 
     // Wrapper holds the button + the absolutely-positioned panel
     const wrap = document.createElement('div');
@@ -137,8 +139,8 @@
       if (e.target.closest('a')) close();
     });
 
-    // Insert wrapper at the start of the tabs row
-    tabsInner.insertBefore(wrap, tabsInner.firstChild);
+    // Insert wrapper at the start of the tabs container (before .md-tabs__list)
+    tabs.insertBefore(wrap, tabs.firstChild);
   }
 
   if (window.document$ && typeof window.document$.subscribe === 'function') {

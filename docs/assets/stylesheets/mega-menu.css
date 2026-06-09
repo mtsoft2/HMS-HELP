@@ -39,15 +39,14 @@
   transform: rotate(180deg);
 }
 
-/* The tabs-inner row hosts our button — keep it on the LEFT */
-.md-tabs__inner {
+/* Layout the .md-tabs row so our injected button sits on the LEFT */
+.md-tabs {
   display: flex;
   align-items: center;
-  padding: 0.3rem 1rem;
 }
+.md-tabs > .hms-mm-wrap { margin-left: 1rem; }
 
-/* The dropdown panel — anchored to the .md-tabs container so it slides down
-   below the entire header / tabs row */
+/* The dropdown panel — anchored to the wrapper so it drops down below */
 .hms-mm-wrap {
   position: relative;
 }
