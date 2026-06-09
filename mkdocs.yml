@@ -1,0 +1,119 @@
+site_name: HMS Help
+site_description: User & administrator documentation for the HMS Hospital Management System
+site_author: MT Soft
+repo_url: https://github.com/mtsoft2/HMS-HELP
+repo_name: mtsoft2/HMS-HELP
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.snippets
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Human Resources:
+      - Overview: hr/index.md
+      - Getting Started: hr/getting-started.md
+      - Employees:
+          - Overview: hr/employees/index.md
+          - Personal Info: hr/employees/personal.md
+          - Employment: hr/employees/employment.md
+          - Contracts: hr/employees/contracts.md
+          - Salary & Allowances: hr/employees/salary.md
+          - Leaves & Tickets: hr/employees/leaves.md
+          - End of Service: hr/employees/eos.md
+      - Recruitment:
+          - Overview: hr/recruitment/index.md
+          - Vacancies: hr/recruitment/vacancies.md
+          - Candidates: hr/recruitment/candidates.md
+          - Agencies: hr/recruitment/agencies.md
+      - Organization:
+          - Overview: hr/organization/index.md
+          - Departments: hr/organization/departments.md
+          - Positions: hr/organization/positions.md
+          - Packages: hr/organization/packages.md
+          - Periodic Allowances: hr/organization/periodic-allowances.md
+      - Personnel Actions:
+          - Overview: hr/actions/index.md
+          - Termination: hr/actions/termination.md
+          - Promotion / Demotion: hr/actions/promotion.md
+          - Transfer: hr/actions/transfer.md
+          - Appraisals: hr/actions/appraisals.md
+      - Leaves & Travel:
+          - Overview: hr/leaves/index.md
+          - Vacation Requests: hr/leaves/vacation.md
+          - Travel Authorisation: hr/leaves/travel-auth.md
+          - Vacation Extensions: hr/leaves/extensions.md
+      - Documents:
+          - Visas: hr/documents/visas.md
+          - Certificates: hr/documents/certificates.md
+          - Sick Leave: hr/documents/sick-leave.md
+      - Payroll:
+          - Overview: hr/payroll/index.md
+          - Pay Codes: hr/payroll/pay-codes.md
+          - Pay Runs: hr/payroll/pay-runs.md
+          - Registers & Pay Slips: hr/payroll/registers.md
+          - Loans: hr/payroll/loans.md
+      - Reports: hr/reports.md
+      - Administration:
+          - Overview: hr/admin/index.md
+          - Lookup Tables: hr/admin/lookups.md
+          - Security & Approvals: hr/admin/security.md
+          - Alerts & Banners: hr/admin/alerts.md
+      - Reference:
+          - Data Model: hr/reference/data-model.md
+          - Templates (FT/ST/GT): hr/reference/templates.md
+          - Stored Procedures: hr/reference/procedures.md
+          - Glossary: hr/reference/glossary.md
