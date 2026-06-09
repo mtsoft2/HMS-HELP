@@ -9,6 +9,7 @@ This site is the end-user and administrator manual for HMS. It is published from
 
 | Module | Status | Link |
 |---|---|---|
+| Patient Dashboard | Documented | [Open](patient-dashboard/index.md) |
 | Document Manager (DM2) | Documented | [Open](dm2/index.md) |
 | Scheduler | Documented | [Open](scheduler/index.md) |
 | Clinic Reception | Documented | [Open](adt-dc/index.md) |

@@ -63,6 +63,21 @@ plugins:
 
 nav:
   - Home: index.md
+  - Patient Dashboard:
+      - Overview: patient-dashboard/index.md
+      - Getting Started: patient-dashboard/getting-started.md
+      - Features: patient-dashboard/features.md
+      - Tabs:
+          - Profile: patient-dashboard/tabs/profile.md
+          - Clinical: patient-dashboard/tabs/clinical.md
+          - Care Plan: patient-dashboard/tabs/care-plan.md
+          - Appointments: patient-dashboard/tabs/appointments.md
+          - Lab Tests: patient-dashboard/tabs/lab.md
+          - Imaging: patient-dashboard/tabs/imaging.md
+          - History: patient-dashboard/tabs/history.md
+          - Documents: patient-dashboard/tabs/documents.md
+          - Billing: patient-dashboard/tabs/billing.md
+          - Insurance: patient-dashboard/tabs/insurance.md
   - Document Manager (DM2):
       - Overview: dm2/index.md
       - Getting Started: dm2/getting-started.md
