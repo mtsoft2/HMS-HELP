@@ -1,9 +1,6 @@
 site_name: HMS Help
 site_description: User & administrator documentation for the HMS Hospital Management System
 site_author: MT Soft
-repo_url: https://github.com/mtsoft2/HMS-HELP
-repo_name: mtsoft2/HMS-HELP
-edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -19,7 +16,6 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-    - content.action.edit
     - toc.follow
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -36,8 +32,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  icon:
-    repo: fontawesome/brands/github
 
 markdown_extensions:
   - admonition

@@ -33,7 +33,6 @@ hide:
 # HMS — Hospital Management System
 End-user and administrator manual for every module in HMS. Pick a card below to jump in,
 or use the search box (top right) to find a feature by name.
-[:fontawesome-brands-github: mtsoft2/HMS-HELP](https://github.com/mtsoft2/HMS-HELP){ .repo }
 </div>
 
 ## 🆕 What's New {.hms-section-title}
@@ -201,7 +200,6 @@ or use the search box (top right) to find a feature by name.
 * Use the **top navigation tabs** to jump between modules.
 * The **left sidebar** lists every page in the current module.
 * The **search bar** (top right) searches the entire site.
-* Each page has a small **edit pencil** that opens the source markdown on GitHub.
 
 ## Conventions
 
