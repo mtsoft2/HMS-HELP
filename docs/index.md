@@ -14,6 +14,7 @@ This site is the end-user and administrator manual for HMS. It is published from
 | Imaging / Document Management — DM2 | Documented | [Open](dm2/index.md) |
 | Scheduler | Documented | [Open](scheduler/index.md) |
 | Clinic Reception | Documented | [Open](adt-dc/index.md) |
+| Integrations — NPHIES BridgeProxy | Documented | [Open](bridgeproxy/index.md) |
 | Human Resources (HR) | Documented | [Open](hr/index.md) |
 | Payroll (PR) | Documented (part of HR) | [Open](hr/payroll/index.md) |
 | Patient / Clinical | Coming soon | — |
