@@ -63,6 +63,12 @@ plugins:
 
 nav:
   - Home: index.md
+  - Setup & Maintenance:
+      - Setup Wizard v2:
+          - Overview: setup-wizard/index.md
+          - Walkthrough: setup-wizard/walkthrough.md
+          - Patching History: setup-wizard/patching-history.md
+          - Features: setup-wizard/features.md
   - UI Updates:
       - Overview: ui-updates/index.md
       - Grid R3: ui-updates/grid-r3.md

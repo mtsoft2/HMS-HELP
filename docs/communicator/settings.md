@@ -2,6 +2,8 @@
 
 Open from the sidebar. The settings window is split into seven tabs.
 
+![Settings — Engine tab](img/settings-engine.png)
+
 ## Engine
 
 How the Communicator drives WhatsApp.

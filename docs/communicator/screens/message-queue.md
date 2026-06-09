@@ -4,6 +4,8 @@ Every WhatsApp message — automatic or manual — flows through this
 screen. Use it to monitor the queue, act on stuck messages, and answer
 "did it actually send?" questions.
 
+![Message Queue screen](../img/message-queue.png)
+
 ## Summary cards
 
 Four cards across the top count the messages in each state:

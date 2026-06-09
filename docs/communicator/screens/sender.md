@@ -3,6 +3,8 @@
 The **Sender** screen has three areas, top to bottom: **Status**,
 **Manual send**, and **Log**.
 
+![Sender screen](../img/sender.png)
+
 ## Status
 
 | Control | What it does |
