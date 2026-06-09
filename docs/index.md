@@ -9,7 +9,7 @@ This site is the end-user and administrator manual for HMS. It is published from
 
 | Module | Status | Link |
 |---|---|---|
-| Dental Clinic Front Desk | Documented | [Open](adt-dc/index.md) |
+| Clinic Reception | Documented | [Open](adt-dc/index.md) |
 | Human Resources (HR) | Documented | [Open](hr/index.md) |
 | Payroll (PR) | Documented (part of HR) | [Open](hr/payroll/index.md) |
 | Patient / Clinical | Coming soon | — |

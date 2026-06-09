@@ -2,8 +2,8 @@
 
 ## Patient Toolbox
 
-The **Patient Toolbox** is the slim panel on the right edge of the
-Dental Clinic Front Desk. It shows context-aware shortcuts for the
+The **Patient Toolbox** is the slim panel on the right edge of Clinic
+Reception. It shows context-aware shortcuts for the
 patient currently in the banner — the buttons that appear depend on
 what the patient has on file.
 

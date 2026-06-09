@@ -1,6 +1,6 @@
 # Administration
 
-The Dental Clinic Front Desk has very little to configure on its own —
+Clinic Reception has very little to configure on its own —
 it just orchestrates pieces that live in other modules. As the clinic
 administrator your job is mainly to make sure those pieces are set up.
 

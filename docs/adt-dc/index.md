@@ -1,10 +1,9 @@
-# Dental Clinic Front Desk
+# Clinic Reception
 
-The **Dental Clinic Front Desk** is the receptionist's home screen at a
-dental clinic. From this one window the receptionist can find the
-patient, open their chart, create a visit, take a payment, print a
-receipt, issue a prescription, and book the next recall — without
-hopping between modules.
+**Clinic Reception** is the receptionist's home screen. From this one
+window the receptionist can find the patient, open their chart, create
+a visit, take a payment, print a receipt, issue a prescription, and
+book the next recall — without hopping between modules.
 
 ## The toolbar at a glance
 
@@ -31,8 +30,8 @@ who is selected.
 
 ## How to open it
 
-From the HMS main menu open **Dental Clinic → Front Desk**, or pin the
-shortcut to the launcher for one-click access.
+From the HMS main menu open **Clinic Reception**, or pin the shortcut
+to the launcher for one-click access.
 
 ➡ Next: **[Getting Started](getting-started.md)** — walk through a full
 patient visit, start to finish.
