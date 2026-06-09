@@ -28,10 +28,12 @@
   }
 
   function build() {
-    // Material renders <nav class="md-tabs"><ul class="md-tabs__list">…
-    // There is NO .md-tabs__inner wrapper — we anchor to .md-tabs directly.
+    // Material renders <nav class="md-tabs"><div class="md-grid"><ul class="md-tabs__list">…
+    // Anchor inside the .md-grid so our button picks up the page's content
+    // width and respects the left/right gutters.
     const tabs = document.querySelector('.md-tabs');
     if (!tabs) return;
+    const grid = tabs.querySelector('.md-grid') || tabs;
     const data = window.HMS_NAV;
     if (!Array.isArray(data)) return;
 
@@ -139,13 +141,21 @@
       if (e.target.closest('a')) close();
     });
 
-    // Insert wrapper at the start of the tabs container (before .md-tabs__list)
-    tabs.insertBefore(wrap, tabs.firstChild);
+    // Insert wrapper at the start of the grid (so it lines up with content).
+    grid.insertBefore(wrap, grid.firstChild);
   }
 
+  // Try every path so we don't miss the initial load:
+  //   - document$ is a one-shot in some Material versions, so we ALSO call
+  //     build() directly via DOMContentLoaded or immediately if already past.
   if (window.document$ && typeof window.document$.subscribe === 'function') {
-    window.document$.subscribe(() => build());
-  } else {
+    try { window.document$.subscribe(() => build()); } catch (e) {}
+  }
+  if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', build);
+  } else {
+    // DOM already parsed — schedule for the next tick so Material's tab DOM
+    // has finished rendering before we look for .md-tabs.
+    setTimeout(build, 0);
   }
 })();
