@@ -56,6 +56,14 @@ or use the search box (top right) to find a feature by name.
 
     [:octicons-arrow-right-24: Open](setup-wizard/index.md)
 
+- :material-database-cog-outline: **Maintenance**
+
+    ---
+
+    Database health dashboard — KPIs, scored checklist with one-click fixes, backups, schedules, and Drive-shareable maintenance log.
+
+    [:octicons-arrow-right-24: Open](maintenance/index.md)
+
 - :material-chart-box-outline: **Report Server (V2)**
 
     ---
