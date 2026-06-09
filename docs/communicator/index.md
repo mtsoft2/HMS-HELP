@@ -1,7 +1,45 @@
 # Metasoft Communicator
 
-The **Metasoft Communicator** sends WhatsApp messages on behalf of HMS
-— appointment reminders, confirmations, prescriptions, documents, and
+## Introduction
+
+**metasSoft Communicator** is an integrated HMS tool that enables clinics
+to send WhatsApp messages, documents, reports, invoices, prescriptions,
+and image attachments directly to patients, suppliers, and other
+contacts from within HMS.
+
+Unlike traditional WhatsApp Business integrations, Communicator does
+not depend on third-party messaging gateways, API configurations, or
+template approval processes. This reduces implementation complexity,
+lowers operational costs, and simplifies ongoing maintenance.
+
+### Key Benefits
+
+* Send WhatsApp messages directly from HMS.
+* Attach documents, reports, images, invoices, and prescriptions.
+* Eliminate dependency on third-party WhatsApp gateway providers.
+* No template creation, submission, or approval requirements.
+* Reduce recurring subscription and messaging fees.
+* Faster deployment and easier administration.
+* Minimise development and support effort across customer installations.
+* Simplify localisation and customisation for different clinics and
+  regions.
+* Ideal for small and medium-sized clinics seeking a cost-effective
+  communication solution.
+* Provides a flexible foundation for future SaaS deployments while
+  remaining simple to operate in on-premises environments.
+
+By eliminating the need to configure and maintain message templates
+for each customer, service provider, appointment reminder, or
+localised installation, metasSoft Communicator significantly reduces
+implementation and support overhead while delivering a seamless
+communication experience directly from HMS.
+
+---
+
+## How it works
+
+The Communicator sends WhatsApp messages on behalf of HMS —
+appointment reminders, confirmations, prescriptions, documents, and
 ad-hoc messages — by driving WhatsApp Web in the background. It lives
 in the Windows system tray on a dedicated PC and runs around the
 clock.
