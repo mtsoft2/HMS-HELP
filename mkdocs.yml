@@ -63,6 +63,11 @@ plugins:
 
 nav:
   - Home: index.md
+  - UI Updates:
+      - Overview: ui-updates/index.md
+      - Grid R3: ui-updates/grid-r3.md
+      - Mini Mode: ui-updates/mini-mode.md
+      - Patient Avatar: ui-updates/patient-avatar.md
   - Report Server (V2):
       - Overview: report-server/index.md
       - Getting Started: report-server/getting-started.md

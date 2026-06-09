@@ -9,6 +9,7 @@ This site is the end-user and administrator manual for HMS. It is published from
 
 | Module | Status | Link |
 |---|---|---|
+| UI Updates (Grid R3 · Mini Mode · Patient Avatar) | Documented | [Open](ui-updates/index.md) |
 | Report Server (V2) | Documented | [Open](report-server/index.md) |
 | Clinic Dashboard | Documented | [Open](clinic-dashboard/index.md) |
 | Patient Dashboard | Documented | [Open](patient-dashboard/index.md) |
