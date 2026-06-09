@@ -99,6 +99,14 @@ or use the search box (top right) to find a feature by name.
 
 <div class="grid cards" markdown>
 
+- :material-tooth-outline: **Dental Chart**
+
+    ---
+
+    Two-arch chairside chart with status / operation / root tools, six clinical overlays (Plan, Perio, Ortho, Caries, Endo/RG, Occlusion), snapshots & compare, demo mode.
+
+    [:octicons-arrow-right-24: Open](dental-chart/index.md)
+
 - :material-calendar-clock: **Scheduler**
 
     ---

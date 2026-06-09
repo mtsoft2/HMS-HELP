@@ -143,6 +143,30 @@ nav:
               - Overview: dm2/admin/index.md
               - Categories & Tags: dm2/admin/categories-and-tags.md
               - Storage & Deduplication: dm2/admin/storage-and-deduplication.md
+  - Dental Chart:
+      - Overview: dental-chart/index.md
+      - Getting Started: dental-chart/getting-started.md
+      - Features: dental-chart/features.md
+      - Using the chart:
+          - Layout & Toolbar: dental-chart/using/layout.md
+          - Tools: dental-chart/using/tools.md
+          - Selecting Teeth: dental-chart/using/selecting-teeth.md
+          - Per-Tooth Actions: dental-chart/using/per-tooth-actions.md
+      - Overlays:
+          - Overview: dental-chart/overlays/index.md
+          - Treatment Plan: dental-chart/overlays/plan.md
+          - Periodontal: dental-chart/overlays/perio.md
+          - Orthodontic: dental-chart/overlays/ortho.md
+          - Caries: dental-chart/overlays/caries.md
+          - Endodontic / Radiographic: dental-chart/overlays/endo-rg.md
+          - Occlusion: dental-chart/overlays/occlusion.md
+      - Snapshots & Compare: dental-chart/snapshots-and-compare.md
+      - Demo Mode: dental-chart/demo-mode.md
+      - Printing & Export: dental-chart/printing-and-export.md
+      - Administration:
+          - Overview: dental-chart/admin/index.md
+          - Tooth Numbering: dental-chart/admin/numbering.md
+          - Procedure Legend: dental-chart/admin/legend.md
   - Scheduler:
       - Overview: scheduler/index.md
       - Getting Started: scheduler/getting-started.md
