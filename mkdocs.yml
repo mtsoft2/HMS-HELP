@@ -69,6 +69,19 @@ nav:
           - Walkthrough: setup-wizard/walkthrough.md
           - Patching History: setup-wizard/patching-history.md
           - Features: setup-wizard/features.md
+      - Maintenance:
+          - Overview: maintenance/index.md
+          - Getting Started: maintenance/getting-started.md
+          - Features: maintenance/features.md
+          - Using:
+              - KPIs Dashboard: maintenance/using/kpis-dashboard.md
+              - Health Checklist: maintenance/using/health-checklist.md
+              - Run Backup: maintenance/using/run-backup.md
+              - Backup Schedules: maintenance/using/backup-schedules.md
+              - Send Log: maintenance/using/send-log.md
+              - Settings: maintenance/using/settings.md
+              - Backup Log: maintenance/using/backup-log.md
+              - Storage & Reports: maintenance/using/storage-and-reports.md
   - UI Updates:
       - Overview: ui-updates/index.md
       - Grid R3: ui-updates/grid-r3.md
