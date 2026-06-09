@@ -40,7 +40,8 @@
     // Avoid rebuilding on instant-load page changes
     if (tabs.querySelector('.hms-mm-wrap')) return;
 
-    // Wrapper holds the button + the absolutely-positioned panel
+    // Wrapper holds only the button. The panel is appended to <body>
+    // so it can escape any clipping ancestor (.md-tabs, sticky header, etc).
     const wrap = document.createElement('div');
     wrap.className = 'hms-mm-wrap';
 
@@ -53,13 +54,13 @@
     btn.innerHTML = '<span>☰ Modules</span><span class="hms-caret">▼</span>';
     wrap.appendChild(btn);
 
-    // The panel
+    // The panel (in document.body so it's never clipped)
     const panel = document.createElement('div');
     panel.className = 'hms-mm-panel';
     const sections = document.createElement('div');
     sections.className = 'hms-mm-sections';
     panel.appendChild(sections);
-    wrap.appendChild(panel);
+    document.body.appendChild(panel);
 
     // Build one tile per top-level module — name only, no sub-pages
     data.forEach((node) => {
@@ -86,12 +87,24 @@
     backdrop.className = 'hms-mm-backdrop';
     document.body.appendChild(backdrop);
 
+    function positionPanel() {
+      const r = btn.getBoundingClientRect();
+      panel.style.top = (r.bottom + 6) + 'px';
+      panel.style.left = r.left + 'px';
+    }
     function open() {
+      positionPanel();
       panel.classList.add('is-open');
       backdrop.classList.add('is-open');
       btn.classList.add('is-open');
       btn.setAttribute('aria-expanded', 'true');
     }
+    window.addEventListener('resize', () => {
+      if (panel.classList.contains('is-open')) positionPanel();
+    });
+    window.addEventListener('scroll', () => {
+      if (panel.classList.contains('is-open')) positionPanel();
+    }, true);
     function close() {
       panel.classList.remove('is-open');
       backdrop.classList.remove('is-open');

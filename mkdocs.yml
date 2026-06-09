@@ -56,11 +56,11 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_css:
-  - assets/stylesheets/mega-menu.css?v=3
+  - assets/stylesheets/mega-menu.css?v=4
 
 extra_javascript:
-  - assets/javascripts/nav-data.js?v=3
-  - assets/javascripts/mega-menu.js?v=3
+  - assets/javascripts/nav-data.js?v=4
+  - assets/javascripts/mega-menu.js?v=4
 
 plugins:
   - search
