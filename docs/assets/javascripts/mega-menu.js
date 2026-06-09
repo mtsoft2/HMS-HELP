@@ -61,54 +61,24 @@
     panel.appendChild(sections);
     wrap.appendChild(panel);
 
-    // Build each top-level section as a column
+    // Build one tile per top-level module — name only, no sub-pages
     data.forEach((node) => {
-      // Skip "Home" — it has no children
-      const isHome = (node.label || '').toLowerCase() === 'home';
-      if (isHome && (!node.columns || node.columns.length === 0)) return;
+      // Skip "Home" — already accessible elsewhere
+      if ((node.label || '').toLowerCase() === 'home') return;
 
-      const sec = document.createElement('div');
-      sec.className = 'hms-mm-section';
+      // First leaf gives us the URL to open when the module name is clicked
+      const firstLeaf = node.href
+        ? { href: node.href }
+        : (node.columns || [])
+            .flatMap((c) => c.items || [])
+            .find((x) => x && x.href);
+      if (!firstLeaf) return;
 
-      // Section title — links to first leaf if available
-      const firstLeaf = (node.columns || [])
-        .flatMap((c) => c.items || [])
-        .find((x) => x && x.href);
-      let titleEl;
-      if (firstLeaf) {
-        titleEl = document.createElement('a');
-        titleEl.href = abs(firstLeaf.href);
-        titleEl.className = 'hms-mm-section-title is-link';
-      } else {
-        titleEl = document.createElement('span');
-        titleEl.className = 'hms-mm-section-title';
-      }
-      titleEl.textContent = node.label;
-      sec.appendChild(titleEl);
-
-      // If the section has columns (sub-groups), render them.
-      // Flatten — all leaves under one ul, with sub-group titles in between.
-      (node.columns || []).forEach((col) => {
-        if (col.label) {
-          const sg = document.createElement('span');
-          sg.className = 'hms-mm-subgroup-title';
-          sg.textContent = col.label;
-          sec.appendChild(sg);
-        }
-        const ul = document.createElement('ul');
-        (col.items || []).forEach((leaf) => {
-          const li = document.createElement('li');
-          const a = document.createElement('a');
-          a.href = abs(leaf.href);
-          a.className = 'hms-mm-link';
-          a.textContent = leaf.label;
-          li.appendChild(a);
-          ul.appendChild(li);
-        });
-        if (ul.childNodes.length) sec.appendChild(ul);
-      });
-
-      sections.appendChild(sec);
+      const tile = document.createElement('a');
+      tile.className = 'hms-mm-tile';
+      tile.href = abs(firstLeaf.href);
+      tile.textContent = node.label;
+      sections.appendChild(tile);
     });
 
     // Backdrop for outside-click close
