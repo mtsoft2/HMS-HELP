@@ -9,6 +9,7 @@ This site is the end-user and administrator manual for HMS. It is published from
 
 | Module | Status | Link |
 |---|---|---|
+| Document Manager (DM2) | Documented | [Open](dm2/index.md) |
 | Scheduler | Documented | [Open](scheduler/index.md) |
 | Clinic Reception | Documented | [Open](adt-dc/index.md) |
 | Human Resources (HR) | Documented | [Open](hr/index.md) |

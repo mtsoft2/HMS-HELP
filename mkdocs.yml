@@ -63,6 +63,24 @@ plugins:
 
 nav:
   - Home: index.md
+  - Document Manager (DM2):
+      - Overview: dm2/index.md
+      - Getting Started: dm2/getting-started.md
+      - Features: dm2/features.md
+      - Using DM2:
+          - Gallery: dm2/using/gallery.md
+          - Upload & Import: dm2/using/upload-and-import.md
+          - Camera Capture: dm2/using/camera-capture.md
+          - Viewer: dm2/using/viewer.md
+          - Annotations: dm2/using/annotations.md
+          - Measurements: dm2/using/measurements.md
+          - Compare: dm2/using/compare.md
+          - Editor: dm2/using/editor.md
+          - Chart Mode: dm2/using/chart-mode.md
+      - Administration:
+          - Overview: dm2/admin/index.md
+          - Categories & Tags: dm2/admin/categories-and-tags.md
+          - Storage & Deduplication: dm2/admin/storage-and-deduplication.md
   - Scheduler:
       - Overview: scheduler/index.md
       - Getting Started: scheduler/getting-started.md
