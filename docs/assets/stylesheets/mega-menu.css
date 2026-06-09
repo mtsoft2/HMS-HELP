@@ -3,9 +3,14 @@
 /* Hide the default Material top-tabs strip — we replace it with one button */
 .md-tabs__list { display: none !important; }
 
-/* The tabs row stays as the anchor — keep it visible but slim */
+/* Force the tabs row to stay visible + give it height so our button shows */
 .md-tabs {
+  display: flex !important;
+  align-items: center;
+  min-height: 2.8rem;
+  padding: 0.4rem 1rem;
   background-color: var(--md-primary-fg-color);
+  overflow: visible !important;
 }
 
 /* The single dropdown trigger we inject into the tabs row */
@@ -39,12 +44,8 @@
   transform: rotate(180deg);
 }
 
-/* Layout the .md-tabs row so our injected button sits on the LEFT */
-.md-tabs {
-  display: flex;
-  align-items: center;
-}
-.md-tabs > .hms-mm-wrap { margin-left: 1rem; }
+/* The injected button wrapper sits on the LEFT of the tabs row */
+.md-tabs > .hms-mm-wrap { margin-left: 0; }
 
 /* The dropdown panel — anchored to the wrapper so it drops down below */
 .hms-mm-wrap {
