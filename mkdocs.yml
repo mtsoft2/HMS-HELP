@@ -63,6 +63,10 @@ plugins:
 
 nav:
   - Home: index.md
+  - Report Server (V2):
+      - Overview: report-server/index.md
+      - Getting Started: report-server/getting-started.md
+      - Features: report-server/features.md
   - Clinic Dashboard:
       - Overview: clinic-dashboard/index.md
       - Getting Started: clinic-dashboard/getting-started.md

@@ -9,6 +9,7 @@ This site is the end-user and administrator manual for HMS. It is published from
 
 | Module | Status | Link |
 |---|---|---|
+| Report Server (V2) | Documented | [Open](report-server/index.md) |
 | Clinic Dashboard | Documented | [Open](clinic-dashboard/index.md) |
 | Patient Dashboard | Documented | [Open](patient-dashboard/index.md) |
 | Imaging / Document Management — DM2 | Documented | [Open](dm2/index.md) |
