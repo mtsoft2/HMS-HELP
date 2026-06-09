@@ -63,6 +63,21 @@ plugins:
 
 nav:
   - Home: index.md
+  - Dental Clinic Front Desk:
+      - Overview: adt-dc/index.md
+      - Getting Started: adt-dc/getting-started.md
+      - Workflows:
+          - Find a Patient: adt-dc/workflows/find-patient.md
+          - New Patient: adt-dc/workflows/new-patient.md
+          - New Visit: adt-dc/workflows/new-visit.md
+          - Dental Chart: adt-dc/workflows/dental-chart.md
+          - Treatment Plans: adt-dc/workflows/treatment-plans.md
+          - Appointments & Recalls: adt-dc/workflows/appointments.md
+          - Prescriptions: adt-dc/workflows/prescriptions.md
+          - Billing & Payments: adt-dc/workflows/billing-payments.md
+      - Administration:
+          - Overview: adt-dc/admin/index.md
+          - Patient Toolbox & Fingerprint: adt-dc/admin/patient-toolbox.md
   - Human Resources:
       - Overview: hr/index.md
       - Getting Started: hr/getting-started.md
