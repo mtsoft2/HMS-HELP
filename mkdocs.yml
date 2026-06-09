@@ -153,6 +153,22 @@ nav:
           - Overview: adt-dc/admin/index.md
           - Patient Toolbox & Fingerprint: adt-dc/admin/patient-toolbox.md
   - Integrations:
+      - Metasoft Communicator:
+          - Overview: communicator/index.md
+          - Getting Started: communicator/getting-started.md
+          - Features: communicator/features.md
+          - Screens:
+              - Sender: communicator/screens/sender.md
+              - Message Queue: communicator/screens/message-queue.md
+          - Everyday Use: communicator/everyday-use.md
+          - Settings: communicator/settings.md
+          - Administration:
+              - Architecture: communicator/admin/architecture.md
+              - Install & Uninstall: communicator/admin/install-and-uninstall.md
+              - Safety Guardrails: communicator/admin/safety-guardrails.md
+              - Alerts & Monitoring: communicator/admin/alerts-and-monitoring.md
+              - Reliability: communicator/admin/reliability.md
+              - Logs: communicator/admin/logs.md
       - NPHIES BridgeProxy:
           - Overview: bridgeproxy/index.md
           - Getting Started: bridgeproxy/getting-started.md
