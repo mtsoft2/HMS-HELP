@@ -63,6 +63,28 @@ plugins:
 
 nav:
   - Home: index.md
+  - Scheduler:
+      - Overview: scheduler/index.md
+      - Getting Started: scheduler/getting-started.md
+      - Using:
+          - Day & Week Views: scheduler/using/views.md
+          - Find a Patient & Book: scheduler/using/find-and-book.md
+          - Move, Copy, Paste: scheduler/using/move-and-paste.md
+          - Conflicts: scheduler/using/conflicts.md
+          - Bulk Reschedule: scheduler/using/bulk-reschedule.md
+          - Block Time: scheduler/using/block-time.md
+          - Event Info Panel: scheduler/using/event-info.md
+      - Configuration:
+          - Overview: scheduler/configuration/index.md
+          - Display: scheduler/configuration/display.md
+          - Filters & Statuses: scheduler/configuration/filters-and-statuses.md
+          - Hours & Days: scheduler/configuration/hours-and-days.md
+          - Alternative Hours: scheduler/configuration/alternative-hours.md
+          - Rooms: scheduler/configuration/rooms.md
+          - Breaks: scheduler/configuration/breaks.md
+          - Holidays: scheduler/configuration/holidays.md
+          - Categories & Colours: scheduler/configuration/categories-and-colors.md
+          - Alerts: scheduler/configuration/alerts.md
   - Clinic Reception:
       - Overview: adt-dc/index.md
       - Getting Started: adt-dc/getting-started.md
