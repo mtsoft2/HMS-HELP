@@ -145,6 +145,14 @@ or use the search box (top right) to find a feature by name.
 
     [:octicons-arrow-right-24: Open](communicator/index.md)
 
+- :material-file-document-check-outline: **NPHIES (Insurance)**
+
+    ---
+
+    Eligibility, pre-authorizations, claims, and payments with NPHIES — one dashboard, a guided workflow, the pre-send check, and a safe practice/testing area.
+
+    [:octicons-arrow-right-24: Open](nphies/index.md)
+
 - :material-shield-check-outline: **NPHIES BridgeProxy**
 
     ---
