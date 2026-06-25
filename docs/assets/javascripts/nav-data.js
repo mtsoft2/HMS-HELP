@@ -379,6 +379,136 @@ window.HMS_NAV = [
     ]
   },
   {
+    "label": "Dental Chart",
+    "columns": [
+      {
+        "label": null,
+        "items": [
+          {
+            "label": "Overview",
+            "href": "dental-chart/"
+          }
+        ]
+      },
+      {
+        "label": null,
+        "items": [
+          {
+            "label": "Getting Started",
+            "href": "dental-chart/getting-started/"
+          }
+        ]
+      },
+      {
+        "label": null,
+        "items": [
+          {
+            "label": "Features",
+            "href": "dental-chart/features/"
+          }
+        ]
+      },
+      {
+        "label": "Using the chart",
+        "items": [
+          {
+            "label": "Layout & Toolbar",
+            "href": "dental-chart/using/layout/"
+          },
+          {
+            "label": "Tools",
+            "href": "dental-chart/using/tools/"
+          },
+          {
+            "label": "Selecting Teeth",
+            "href": "dental-chart/using/selecting-teeth/"
+          },
+          {
+            "label": "Per-Tooth Actions",
+            "href": "dental-chart/using/per-tooth-actions/"
+          }
+        ]
+      },
+      {
+        "label": "Overlays",
+        "items": [
+          {
+            "label": "Overview",
+            "href": "dental-chart/overlays/"
+          },
+          {
+            "label": "Treatment Plan",
+            "href": "dental-chart/overlays/plan/"
+          },
+          {
+            "label": "Periodontal",
+            "href": "dental-chart/overlays/perio/"
+          },
+          {
+            "label": "Orthodontic",
+            "href": "dental-chart/overlays/ortho/"
+          },
+          {
+            "label": "Caries",
+            "href": "dental-chart/overlays/caries/"
+          },
+          {
+            "label": "Endodontic / Radiographic",
+            "href": "dental-chart/overlays/endo-rg/"
+          },
+          {
+            "label": "Occlusion",
+            "href": "dental-chart/overlays/occlusion/"
+          }
+        ]
+      },
+      {
+        "label": null,
+        "items": [
+          {
+            "label": "Snapshots & Compare",
+            "href": "dental-chart/snapshots-and-compare/"
+          }
+        ]
+      },
+      {
+        "label": null,
+        "items": [
+          {
+            "label": "Demo Mode",
+            "href": "dental-chart/demo-mode/"
+          }
+        ]
+      },
+      {
+        "label": null,
+        "items": [
+          {
+            "label": "Printing & Export",
+            "href": "dental-chart/printing-and-export/"
+          }
+        ]
+      },
+      {
+        "label": "Administration",
+        "items": [
+          {
+            "label": "Overview",
+            "href": "dental-chart/admin/"
+          },
+          {
+            "label": "Tooth Numbering",
+            "href": "dental-chart/admin/numbering/"
+          },
+          {
+            "label": "Procedure Legend",
+            "href": "dental-chart/admin/legend/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "label": "Scheduler",
     "columns": [
       {
@@ -654,6 +784,55 @@ window.HMS_NAV = [
           {
             "label": "Diagnostics",
             "href": "bridgeproxy/admin/diagnostics/"
+          }
+        ]
+      },
+      {
+        "label": "NPHIES (Insurance)",
+        "items": [
+          {
+            "label": "Overview",
+            "href": "nphies/"
+          },
+          {
+            "label": "Getting Started",
+            "href": "nphies/getting-started/"
+          },
+          {
+            "label": "Features",
+            "href": "nphies/features/"
+          },
+          {
+            "label": "Overview",
+            "href": "nphies/workflow/"
+          },
+          {
+            "label": "Eligibility",
+            "href": "nphies/workflow/eligibility/"
+          },
+          {
+            "label": "Pre-authorization",
+            "href": "nphies/workflow/pre-authorization/"
+          },
+          {
+            "label": "Claims",
+            "href": "nphies/workflow/claims/"
+          },
+          {
+            "label": "Payments",
+            "href": "nphies/workflow/payments/"
+          },
+          {
+            "label": "Overview Dashboard",
+            "href": "nphies/screens/dashboard/"
+          },
+          {
+            "label": "Testing Area",
+            "href": "nphies/screens/testing/"
+          },
+          {
+            "label": "Settings",
+            "href": "nphies/settings/"
           }
         ]
       }
