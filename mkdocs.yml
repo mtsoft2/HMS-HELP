@@ -302,3 +302,10 @@ nav:
           - Templates (FT/ST/GT): hr/reference/templates.md
           - Stored Procedures: hr/reference/procedures.md
           - Glossary: hr/reference/glossary.md
+  - Developer Guide:
+      - Form Templates (.FT):
+          - Overview: form-templates/index.md
+          - Getting Started: form-templates/getting-started.md
+          - Section & Key Reference: form-templates/reference.md
+          - Field Types: form-templates/field-types.md
+          - Pitfalls & Checklist: form-templates/pitfalls.md
